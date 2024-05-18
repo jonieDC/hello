@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API practice</title>
+</head>
+<body>
+    
+   
+
+
+  <script type="text/javascript">
+ const url ="http://musicbrainz.org/ws/2/annotation/?query=entity:bdb24cb5-404b-4f60-bba4-7b730325ae47";
+
+fetch(url).then(response => response.json()).then(
+response => {
+	console.log(response);
+}
+	)
+
+  </script>
+   
+  </body>
+</html>
